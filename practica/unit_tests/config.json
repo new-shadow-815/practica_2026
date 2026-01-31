@@ -1,0 +1,23 @@
+{
+  "discount_tests": [
+    {"price": 1000, "percent": 10, "result": 900},
+    {"price": 500, "percent": 0, "result": 500},
+    {"price": 200, "percent": 100, "result": 0}
+  ],
+
+  "total_tests": [
+    {"price": 100, "quantity": 3, "result": 300}
+  ],
+
+  "error_discount": [
+    {"price": -100, "percent": 10},
+    {"price": 1000, "percent": -5},
+    {"price": 1000, "percent": 150}
+  ],
+
+  "error_total": [
+    {"price": -200, "quantity": 2},
+    {"price": 100, "quantity": 0},
+    {"price": 100, "quantity": -3}
+  ]
+}
