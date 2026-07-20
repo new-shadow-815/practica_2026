@@ -18,6 +18,9 @@ with open(config_path, encoding="utf-8") as f:
 def test_calc_discount(case):
     assert calc_discount(case["price"], case["percent"]) == case["result"]
 
+#ifk.ifuuviuvkvkuuovhkj
+#dtylucvjh.k/ n,
+#kvh/jj
 
 @pytest.mark.parametrize("case", data["total_tests"])
 def test_calc_total(case):
